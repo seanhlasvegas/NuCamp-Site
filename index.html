@@ -92,8 +92,8 @@
                                     </button>
                                 </div>
                             </div>
+                        </form>
                     </div>
-                    </form>
                 </div>
             </div>
         </div>
@@ -316,22 +316,7 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
 
-        <script>
-            $(function() {
-                $(".carousel").carousel( { interval: 2000 } );
-                $("#carouselButton").click(function(){
-                    if ($("#carouselButton").children("i").hasClass("fa-pause")) {
-                        $(".carousel").carousel("pause");
-                        $("#carouselButton").children("i").removeClass("fa-pause");
-                        $("#carouselButton").children("i").addClass("fa-play");
-                    } else {
-                        $(".carousel").carousel("cycle");
-                        $("#carouselButton").children("i").removeClass("fa-play");
-                        $("#carouselButton").children("i").addClass("fa-pause"); 
-                    }
-                });
-            });
-        </script>
+    <script src="js/scripts.js"> </script>
 
 
 </body>
